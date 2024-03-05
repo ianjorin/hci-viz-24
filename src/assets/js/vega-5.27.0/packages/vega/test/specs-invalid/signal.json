@@ -1,0 +1,54 @@
+[
+  {"signals": null},
+  {"signals": "foo"},
+  {"signals": [{"value": 1}]},
+  {"signals": [{"name": true, "value": 1}]},
+  {"signals": [{"name": "foo", "value": 1, "extra": 5}]},
+
+  {"signals": [{"name": "foo", "update": null}]},
+  {"signals": [{"name": "foo", "update": false}]},
+  {"signals": [{"name": "foo", "update": 1}]},
+  {"signals": [{"name": "foo", "update": {}}]},
+
+  {"signals": [{"name": "foo", "react": null}]},
+  {"signals": [{"name": "foo", "react": 1}]},
+  {"signals": [{"name": "foo", "react": "string"}]},
+  {"signals": [{"name": "foo", "react": {}}]},
+
+  {"signals": [{"name": "foo", "on": null}]},
+  {"signals": [{"name": "foo", "on": false}]},
+  {"signals": [{"name": "foo", "on": 1}]},
+  {"signals": [{"name": "foo", "on": "string"}]},
+  {"signals": [{"name": "foo", "on": {}}]},
+
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown"}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": null, "update": "1"}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": false, "update": "1"}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": 1, "update": "1"}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": {}, "update": "1"}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": [], "update": "1"}]}]},
+
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "encode": null}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "encode": false}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "encode": 1}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "encode": []}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "encode": {}}]}]},
+
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": null}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": false}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": 1}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": []}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": {}}]}]},
+
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": "1", "force": null}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": "1", "force": 1}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": "1", "force": "string"}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": "1", "force": {}}]}]},
+  {"signals": [{"name": "foo", "on": [{"events": "pointerdown", "update": "1", "force": []}]}]},
+
+  {"signals": [{"name": "foo", "bind": null}]},
+  {"signals": [{"name": "foo", "bind": false}]},
+  {"signals": [{"name": "foo", "bind": 1}]},
+  {"signals": [{"name": "foo", "bind": "string"}]},
+  {"signals": [{"name": "foo", "bind": []}]}
+]

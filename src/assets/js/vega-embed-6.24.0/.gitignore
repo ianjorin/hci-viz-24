@@ -1,0 +1,8 @@
+.DS_Store
+build
+coverage/
+node_modules
+npm-debug.log*
+src/style.ts
+yarn-debug.log*
+yarn-error.log*

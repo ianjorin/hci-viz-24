@@ -17,6 +17,9 @@ const { class: clazz } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={pkg.description} />
 		<meta name="" content={pkg.description} />
+		<script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.2"></script>
 		<link rel="icon" type="image/svg+xml" href={url('favicon.svg')} />
 		<link
 			rel="sitemap"
@@ -29,6 +32,7 @@ const { class: clazz } = Astro.props;
 			content="Julian Cataldo, Zoltán Szőgyényi, Robert Tanislav"
 		/>
 		<meta name="copyright" content="MIT" />
+	
 
 		<script is:inline>
 			if (
@@ -60,6 +64,10 @@ const { class: clazz } = Astro.props;
 	import 'flowbite';
 	import 'flowbite/dist/datepicker.js';
 </script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/vega@5.27.0/build/vega.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.2/build/vega-lite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.24.0/build/vega-embed.min.js"></script> -->
 
 <style is:global>
 	@import url('https://fonts.cdnfonts.com/css/inter');
